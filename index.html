@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenCode Awareness Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>GreenCode Awareness Platform</h1>
+        </header>
+
+        <nav>
+            <button id="dashboardBtn">Dashboard</button>
+            <button id="dailyTipBtn">Daily Tip</button>
+            <button id="ideasBtn">Saved Ideas</button>
+        </nav>
+
+        <main id="main-content">
+            <!-- Dashboard Content -->
+            <section id="dashboard" class="page">
+                <h2>Dashboard</h2>
+                <p>Welcome to the GreenCode Awareness Platform!</p>
+                <p>Your environmental impact metrics will be displayed here.</p>
+            </section>
+
+            <!-- Daily Tip Section -->
+            <section id="dailyTip" class="page">
+                <h2>Today's Tip</h2>
+                <div class="tip-card" id="tipCard">
+                    <p>Use efficient algorithms to reduce computational load and energy consumption.</p>
+                    <div class="actions">
+                        <button id="swipeLeft">Dismiss</button>
+                        <button id="swipeRight">Save Idea</button>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Saved Ideas Section -->
+            <section id="ideas" class="page">
+                <h2>Saved Ideas</h2>
+                <ul id="savedIdeasList">
+                    <!-- Saved tips will appear here -->
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
